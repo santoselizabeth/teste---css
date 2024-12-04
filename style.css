@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(242, 242, 242);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a.externo::after{
+    content: '\00A0\1f517';
+    
+
+    }
+
+header{
+    background-color: rgba(215, 103, 249, 0.823);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+header h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    max-height: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.48);
+    text-align: center;
+    
+}
+nav{
+    background-color: #6EF59F;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.346);
+}
+nav> a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}  
+nav > a:hover{
+background-color: violet;
+color: blueviolet;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.197);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+p {
+    padding: 9px;
+}
+
+main img{
+    width: 100%;
+}
+
+main strong{
+    color: rgb(243, 61, 134);
+}
+
+aside{
+    background-color: rgba(215, 103, 249, 0.823);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: justify;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.395);
+}
+
+aside h1{
+   background-color: #6EF59F;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+aside p{
+    padding left: 0px;
+}
+
+aside a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+aside ul{
+    list-style-type: '\2714\00A0';
+    margin-top: 10px;
+    list-style-position: inside;
+    columns: 2;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+aside a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #6EF59F;
+
+}
+
+footer{
+    background-color: rgba(215, 103, 249, 0.823);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+
+}
